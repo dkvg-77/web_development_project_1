@@ -1,0 +1,204 @@
+
+/* We are gonna set the whole font of the body to Montserrat */
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+   
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15% 10% 15%;
+}
+
+
+/* Adding some padding to the bottom of the navbar */
+.navbar {
+    padding-bottom: 5rem;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/* changing the font of our brand name */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+/* Styling some of the navbar items */
+.nav-item{
+    padding:0 35px;
+}
+
+.nav-link{
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Download buttons */
+.download-button-1{
+    margin:8% 4% 21% 20px; 
+}
+
+.download-button-2{
+    margin:8% 4% 21% 4%; 
+}
+
+/* Title image */
+.div-image{
+   padding-left: 100px;
+    
+}
+/* WE have setted the position to absolute */
+.title-image{
+    width: 60%;
+    transform: rotate(20deg);
+    position: absolute;
+}
+
+/* Features- section */
+/* Here, we have setted the position to relative so that we can use z-index as -1 */
+#features{
+    background-color: #fff;
+  
+    text-align: center;
+    padding: 100px 115px 0px 115px;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+.features-item{
+    margin-bottom: 50px;
+    padding: 0 51px;
+}
+
+
+h3{
+    margin-top: 10px;
+}
+
+.features-icon{
+    color: #ff4c68;
+}
+
+.features-icon:hover{
+    color: orange;
+}
+
+
+/* testimonials section */
+
+#testimonials{
+    background-color: #fd8d6a;
+    text-align: center;
+
+    color: white;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+
+}
+
+.testimonials-image{
+    width: 10%;
+    margin: 30px;
+    border-radius: 100%;
+}
+
+.testimonial-item{
+    padding: 6% 18% 3px;
+}
+/* Below is press section */
+#press{
+    background-color: #fd8d6a;
+    text-align: center;
+    padding: 3% 0;
+}
+
+.press-logo{
+    width: 15%;
+    padding: 0 20px;
+}
+
+/* Pricing section */
+#pricing{
+    padding: 100px 150px;
+    text-align: center;
+}
+
+.pricing-items{
+    padding: 4% 3%;
+}
+
+
+/* Cta section */
+
+#cta{
+    background-color: #ff4c68;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.cta-button{
+    margin: 10px;
+}
+
+/* Footer section */
+#footer{
+    padding: 5% 15%;
+    text-align: center;
+}
+.footer-icons{
+    padding: 0px 1%;
+}
+
+/* Media queries */
+@media (max-width:1228px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        margin-top: 20px;
+    }
+    .download-button-1{
+        margin: 10px 10px;
+    }
+    .download-button-2{
+        margin: 10px 10px;
+    }
+    .div-image{
+        padding: 0px;
+    }
+}
+
+@media (max-width: 650px){
+    #pricing{
+        padding: 75px 100px;
+    }
+    .pricing-items{
+        padding: 8% 3%;
+    }
+}
+

@@ -1,0 +1,137 @@
+
+/* We are gonna set the whole font of the body to Montserrat */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: #ff4c68;
+    color: white;
+    margin-bottom: 100px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+
+/* Adding some padding to the bottom of the navbar */
+.navbar {
+    padding-bottom: 5rem;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+/* changing the font of our brand name */
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+/* Styling some of the navbar items */
+.nav-item{
+    padding:0 35px;
+}
+
+.nav-link{
+    font-family: 'Montserrat-light', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* Download buttons */
+.download-button-1{
+    margin:8% 4% 8% 20px; 
+}
+
+.download-button-2{
+    margin:8% 4% 8% 4%; 
+}
+
+/* Title image */
+.div-image{
+    text-align: center;
+}
+.title-image{
+    width: 54%;
+  
+}
+
+/* Features- section */
+#features{
+    margin-top: 50px;
+    text-align: center;
+    padding: 0 115px;
+    margin-bottom: 50px;
+}
+
+.features-item{
+    margin-bottom: 50px;
+    padding: 0 51px;
+}
+
+
+h3{
+    margin-top: 10px;
+}
+
+.features-icon{
+    color: #ff4c68;
+}
+
+.features-icon:hover{
+    color: orange;
+}
+
+
+/* testimonials section */
+
+#testimonials{
+    background-color: #fd8d6a;
+    text-align: center;
+
+    color: white;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.5;
+
+}
+
+.testimonials-image{
+    width: 10%;
+    margin: 30px;
+    border-radius: 100%;
+}
+
+.testimonial-item{
+    padding: 6% 18% 3px;
+}
+/* Below is press section */
+#press{
+    background-color: #fd8d6a;
+    text-align: center;
+    padding: 3% 0;
+}
+
+.press-logo{
+    width: 15%;
+    padding: 0 20px;
+}
+
+/* Pricing section */
+#pricing{
+    padding: 100px 150px;
+    text-align: center;
+}
+
+.pricing-items{
+    padding: 4% 3%;
+}
